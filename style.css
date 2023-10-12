@@ -1,0 +1,1015 @@
+@import url('https://fonts.googleapis.comcss2?family=Poppins&display=swap');
+/*bootstrap icon import*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+:root {
+    --font-family-poppins: 'Poppins', sans-serif;
+    --text: #f4f3f9;
+    --right-body-backg: #add8e6;
+    --silver: #c0c0c0;
+    --light-green: #90ee90;
+    --black: #000000;
+    --blue: #0000ff;
+    --service-card-bg-color: #292930;
+}
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+body {
+    font-family: Poppins;
+    background-color: #e3e9f7;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border-style: none;
+}
+
+nav{
+    background-color: white;
+    background-position: center;
+    height: 80px;
+    width: 90%;
+    margin: 5% 0% 5% 5%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 2;
+}
+
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 80px;
+    margin: 0 80px;
+    color: #212526;
+    overflow: hidden;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav ul .logo2{
+    display: none;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+    padding: 2px;
+}
+
+nav ul li a{
+    color: #212526;
+    cursor: pointer;
+}
+
+.home{
+    background-color: blue;
+    color: white;
+    padding: 0px 3px 0px 3px;
+    border-radius: 5px;
+}
+
+#check{
+    float: right;
+    display: none;
+}
+
+#checkbtn{
+    float: right;
+    line-height: 80px;
+    font-size: 20px;
+    font-weight: 900;
+    color:  #212526;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+    overflow: hidden;
+}
+
+.active a:hover{
+    color: white;
+}
+.active a:active{
+    background-color: white;
+    color: blue;
+}
+
+.link1 a:hover{
+    color: #212526;
+}
+.link1 a:active{
+    color: blue;
+}
+
+.link2 a:hover{
+    color: #212526;
+}
+.link2 a:active{
+    color: blue;
+}
+
+.link3 a:hover{
+    color: #212526;
+}
+.link3 a:active{
+    color: blue;
+}
+
+.link4 a:hover{
+    color: #212526;
+}
+.link4 a:active{
+    color: blue;
+}
+
+
+/* BANNER CAROUSEL  */
+#section1{
+    overflow: hidden;
+}
+#myCarousel{
+    overflow: hidden;
+}
+.text-center{
+    font-family: Poppins;
+    font-weight: 1000;
+    font-size: 40px;
+    color: blue;
+    line-height: 2;
+    background-color: #f1f1f180;
+}
+
+
+/*  <!-- Section 2 --> PRODUCT SHOWCASE SECTION */
+#section2{ 
+    margin-top: 120px;
+}
+
+.section2 h3{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Poppins;
+}
+
+.section2 p{
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.5;
+    padding: 50px 10px 10px 10px;
+}
+
+/* PRODUCT TAB SHOWCASE */
+.tab-container {
+    width: 80%;
+    margin-top: 80px;
+    padding-left: 50px;
+}
+
+.tab-buttons {
+    display: flex;
+}
+
+.tab-btn {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.tab-btn.active {
+    background-color: #ddd;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 2rem; /* Gap between grid items */
+  padding: 20px; /* Padding for the grid container */
+}
+
+.grid-item {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-item img{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.grid-item p{
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    font-family: Poppins;
+}
+.grid-item button{
+    background-color: #ffffff10;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+.grid-item button a{
+    color: blue;
+}
+.grid-item button a:active{
+    background-color: #ffffff00;
+}
+
+/*  <!-- Section 3 --> SERVICE SECTION */
+#section3{
+    margin-top: 60px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+.section3 h3{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Poppins;
+}
+
+#section-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section-3 #fancy-btn{
+    line-height: 1.5;
+    cursor: pointer;
+    color: #00000080;
+    font-size: 12px;
+    border-style: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: var(--silver);
+    border-radius: 20px;
+}
+
+.section3 p{
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.5;
+    padding: 50px 10px 20px 10px;
+}
+
+/* card box gridbox1 for service */
+.gridbox-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Two equal columns */
+  gap: 2rem; /* Gap between grid items */
+  padding: 15px 35px 15px 35px; /* Padding for the grid container */
+  background-color: var(--service-card-bg-color);
+    background-image: url(images/Services_shape.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+}
+
+.gridbox-item {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+.gridbox-item:hover {
+     box-shadow: 0 4px 6px #ffffff80;
+     transition: all 0.5s;
+}
+.gridbox-img{
+    width: 50px;
+    height: 50px;
+}
+
+.gridbox-item p{
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    font-family: Poppins;
+    padding: 0px;
+}
+
+
+/*<!-- Section 4 --> ABOUT SECTION*/
+#section4{
+    margin-top: 120px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+.section4 h3{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Poppins;
+}
+
+#section-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section-4 #fancy-btn{
+    line-height: 1.5;
+    cursor: pointer;
+    color: #00000080;
+    font-size: 12px;
+    border-style: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: var(--silver);
+    border-radius: 20px;
+}
+
+.section4 p{
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.5;
+    padding: 50px 10px 20px 10px;
+}
+/*  <!-- Section 4 --> CALL TO ACTION */
+.connect{
+    display: flex;
+    padding-bottom: 20px;
+}
+.connect-body{
+    float: left;
+    padding-top: 180px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+.connect-body h3 {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+    font-family: Poppins;
+}
+.connect-body p{
+    margin: 0;
+    padding-left: 0px;    
+    padding-bottom: 10px;
+    text-align: left;
+    font-family: Poppins;
+}
+.connect-body button{
+    background-color: blue;
+    color: white;
+    font-family: Poppins;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.connect-body button:hover{
+    color: blue;
+    background-color: #ffffff90;
+    border: solid 1px blue;
+    box-shadow: 0 4px 6px #0000ff80;
+}
+.call-to-action-img{
+    width: 100%;
+    margin-bottom: 100;
+    padding-top: 0px;
+}
+
+
+
+/* FOOTER SECTION */
+footer{
+    margin-top: 0px;
+    height: 45vh;
+    background-color: blue;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.footer-section h5{
+     text-align: center;
+     color: white;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-around;
+}
+.social-links a svg{
+    fill: white;
+    font-size: 20px;
+}
+.footer-hr{
+    color: white;
+    height: 2px;
+}
+.address-div1, .address-div2{
+    padding-left: 15px;
+}
+.address-div1 svg{
+    fill: white;
+    padding-right: 5px;
+}
+.address-div2 svg{
+    fill: white;
+    padding-right: 5px;
+}
+.address-div1 a, .address-div2 a{
+    color: white;
+}
+
+/* 
+
+             SERVICE.HTML
+ */
+.statistics-section{
+    padding-top: 0px;
+    height: 100vh;
+    margin-top: 0px;
+}
+ 
+.stat-section{
+    display: flex;
+    padding-top: 0px;
+}
+ 
+.stat-discuss{
+    padding-top: 180px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+ 
+.stat-discuss h4{
+    font-family: Poppins;
+    font-size: 45px;
+    line-height: 1.5;
+    font-weight: 900px;
+    padding-bottom: 10px;
+}
+  
+.stat-discuss p{
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+   
+#stats-btn{
+    background-color: blue;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+ 
+/* cards statistics gridbox2 */
+.stat-cards{
+    padding-top: 100px;
+}
+
+.gridbox2-container {
+   display: grid;
+   grid-template-columns: 1fr 1fr; /* Two equal columns */
+   gap: 2rem; /* Gap between grid items */
+   padding: 15px 35px 15px 35px; /* Padding for the grid container */
+   margin-top: 60px;
+}
+
+.gridbox2-item {
+   background-color: #ffffff60;
+   padding: 10px;
+   text-align: center;
+   width: 100%;
+}
+.gridbox2-item:hover {
+    box-shadow: 0 4px 6px #00000080;
+    transition: all 0.5s;
+}
+
+.gridbox2-item #h-1{
+    color: black;
+}
+.gridbox2-item #h-2{
+    color: black;
+}
+.gridbox2-item #h-3{
+    color: black;
+}
+.gridbox2-item #h-4{
+    color: black;
+}
+
+.gridbox2-item p{
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    font-family: Poppins;
+    padding: 0px;
+}
+
+#service-footer{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+/* 
+            ABOUT.HTML
+            
+ */
+.about-testimonial{
+    padding-bottom: 30px;
+}
+ 
+.testm-img img{
+    width: 40px;
+    height: 40px;
+}
+
+.gridbox2-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 2rem; /* Gap between grid items */
+    padding: 15px 35px 15px 35px; /* Padding for the grid container */
+    margin-top: 60px;
+}
+  
+.gridbox2-item {
+    background-color: #ffffff60;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+.gridbox2-item:hover {
+    box-shadow: 0 4px 6px #00000080;
+    transition: all 0.5s;
+}
+.gridbox2-item{
+    padding-top: 0px;
+    position: relative;
+}
+  
+  /* 
+          PRODUCT.HTML
+   */
+#products{
+   padding-bottom: 40px;
+   overflow: hidden;
+}
+#products h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+  
+.gridbox3-container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr; /* Two equal columns */
+   gap: 1px; /* Gap between grid items */
+}
+
+.gridbox3-item {
+   text-align: center;
+   width: 100%;
+   padding: 1px;
+}
+
+/* 
+           CONTACT.HTML
+           
+ */
+#contact{
+    overflow: hidden;
+}
+#contact h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Poppins;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+}
+.contact-form{
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+}
+
+
+
+
+/* MEDIA SCREEN */
+@media(max-width: 952px){
+    nav ul li a {
+    font-size: 16px;
+}
+
+/* PRODUCT TAB SHOWCASE */
+.grid-container {
+    grid-template-columns: 1fr 1fr; /* Two columns for medium-sized devices */
+  }
+}
+
+@media(max-width: 858px){
+    nav .logo{
+    font-size: 25px;
+    margin: 0 40px;
+    overflow: hidden;
+}
+
+nav ul .logo2{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 85px;
+    padding-right: 45px;
+    color: #212526;
+    overflow: hidden;
+}
+
+nav ul {
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    border-right: solid 1px blue;
+    top: 0;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 2;
+}
+
+nav ul li{
+    display: block;
+    line-height: 15px;
+    align-items: center;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+#checkbtn {
+     display: block;
+}
+
+#check:checked ~ul {
+    left: 0;
+}
+
+/* Home Link */
+.active:hover{
+    border-left: solid 3px blue;
+    border-bottom: none;
+}
+
+.active a:hover{
+    color: white;
+}
+.active a:active{
+    background-color: white;
+    color: blue;
+}
+
+/* Product link  */
+.link1:hover{
+    border-left: solid 3px blue;
+    border-bottom: none;
+}
+
+.link1 a:hover{
+    color: #212526;
+}
+.link1 a:active{
+    color: blue;
+}
+
+/* Pricing Limk */
+.link2:hover{
+    border-left: solid 3px blue;
+    border-bottom: none;
+}
+
+.link2 a:hover{
+    color: #212526;
+}
+.link2 a:active{
+    color: blue;
+}
+
+/* About Link */
+.link3:hover{
+    border-left: solid 3px blue;
+    border-bottom: none;
+}
+
+.link3 a:hover{
+    color: #212526;
+}
+.link3 a:active{
+    color: blue;
+}
+
+/* Contact Link */
+.link4:hover{
+    border-left: solid 3px blue;
+    border-bottom: none;
+}
+
+.link4 a:hover{
+    color: #212526;
+}
+.link4 a:active{
+    color: blue;
+}
+
+/* BANNER CAROUSEL  */
+#section1{
+    overflow: hidden;
+}
+#myCarousel{
+    overflow: hidden;
+}
+.text-center{
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+/* PRODUCT SHOWCASE */
+#section2{
+    margin-top: 0px;
+}
+
+.section2 h3{
+    font-size: 20px;
+}
+
+/* PRODUCT TAB SHOWCASE */
+.grid-container {
+    grid-template-columns: 1fr; /* Single column for small devices */
+}
+
+/*  <!-- Section 3 --> SERVICE SECTION */
+#section3{
+    margin-top: 60px;
+    padding-bottom: 0px;
+}  
+.section3 h3{
+    font-size: 20px;
+}
+
+/* SERVICE SECTION */
+#section-3 #fancy-btn{
+    font-size: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/* card box for service */
+.gridbox-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 10px; /* Gap between grid items */
+}
+
+.gridbox-item {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+.gridbox-item p{
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    font-family: Poppins;
+}
+
+/* ABOUT SECTION*/
+#section4{
+    margin-top: 60px;
+    padding-bottom: 0px;
+}  
+.section4 h3{
+    font-size: 20px;
+}
+
+#section-4 #fancy-btn{
+    font-size: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/* CALL TO ACTION */
+.call-to-action{
+    padding-bottom: 50px;
+}
+.connect{
+    display: block;
+    padding: 0;
+    overflow: hidden;
+    height: 80vh;
+}
+.connect-body{
+    padding-top: 0px;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 0px;
+}
+.connect-body h3 {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.connect-body p{
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 0px; 
+    text-align: center;
+    font-family: Poppins;
+}
+#sm-display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.connect-body button{
+    background-color: blue;
+    color: white;
+    font-family: Poppins;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.connect-body button:hover{
+    color: blue;
+    background-color: #ffffff90;
+    border: solid 1px blue;
+    box-shadow: 0 4px 6px #0000ff80;
+}
+.call-to-action-img{
+    width: 100%;
+}
+
+/* FOOTER SECTION */
+footer{
+    margin-top: 0px;
+    height: 45vh;
+    background-color: blue;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.footer-section h5{
+     text-align: center;
+     color: white;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-around;
+}
+.social-links a svg{
+    fill: white;
+    font-size: 20px;
+}
+.footer-hr{
+    color: white;
+    height: 2px;
+}
+.address-div1, .address-div2{
+    padding-left: 15px;
+}
+.address-div1 svg{
+    fill: white;
+    padding-right: 5px;
+}
+.address-div2 svg{
+    fill: white;
+    padding-right: 5px;
+}
+.address-div1 a, .address-div2 a{
+    color: white;
+}
+
+
+/* 
+       SERVICE.HTML
+
+ */
+ .stat-section{
+    display: block;
+    padding-top: 60px;
+    margin-top: 0px;    
+}
+
+.stat-discuss{
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+ }
+ 
+.stat-discuss h4{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700px;
+}
+.stat-discuss p{
+    font-size: 15px;
+}
+  
+ /* cards statistics gridbox2 */
+.stat-cards{
+    padding-top: 0px;
+}
+.gridbox2-container {
+   display: grid;
+   grid-template-columns: 1fr; /* one equal columns */
+   gap: 10px; /* Gap between grid items */
+}
+
+#service-footer{
+    margin-top: 400px;
+}
+
+
+ /* 
+          PRODUCT.HTML
+   */
+   
+.card-title{
+    font-size: 10px;
+}
+.card-text{
+    font-size: 8px;
+}
+ .gridbox3-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 1px; /* Gap between grid items */
+  align-items: center;
+  justify-content: center;
+}
+
+.gridbox3-item {
+  text-align: center;
+  width: 100%;
+}
+
+/* 
+           CONTACT.HTML
+           
+ */
+#contact h3{
+     font-size: 20px;
+}
+
+
+}
